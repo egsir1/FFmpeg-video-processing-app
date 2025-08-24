@@ -17,3 +17,9 @@ In order to get started with this project the following is required:
 - clone this => https://github.com/egsir1/FFmpeg-video-processing-app.git
 - cd server & npm install
 - npm run start
+
+## References
+
+- **Cloud Storage Client Library: https://cloud.google.com/storage/docs/reference/libraries#client-libraries-usage-nodejs**
+
+- **Using Pub/Sub with Cloud Run tutorial: https://cloud.google.com/run/docs/tutorials/pubsub#run_pubsub_server-nodejs**
