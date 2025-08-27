@@ -3,10 +3,9 @@ import fs from 'fs';
 import ffmpeg from 'fluent-ffmpeg';
 
 const storage = new Storage();
-const rawVideoBucketName =
-	process.env.GCLOUD_STORAGE_BUCKET || 'your-bucket-name';
+const rawVideoBucketName = 'nc-yt-raw-videos-sam';
 
-const processedVideoBucketName = rawVideoBucketName + '-processed';
+const processedVideoBucketName = 'nc-yt-processed-videos-sam';
 
 const localRawVideoPath = './raw-videos';
 const localProcessedVideoPath = './processed-videos';
